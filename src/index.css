@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width: 420px) {
+  .main-card {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-card {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hover-container {
+    flex-direction: row;
+    bottom: 0;
+  }
+}
